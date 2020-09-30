@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>fetch</title>
+</head>
+
+<body>
+<h1 id="placeholder"></h1>
+<script>
+    fetch('http://localhost:5001/api/name')
+
+        .then(response => response.text())
+
+        .then(data => {
+            document.getElementById("placeholder").innerHTML = data;
+        })
+</script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>05-02</title>
+</head>
+
+<body>
+<h1>Lab 5</h1>
+<div id="result"></div>
+<button onclick="Get()">GET</button>
+
+<br/>
+<br/>
+
+<div>
+    <div class="row">
+        <label class="col-2">Id :</label>
+        <input type="number" class="col-3" id="ID" min="0"/>
+    </div>
+    <div class="row">
+        <label class="col-2">Имя: </label>
+        <input type="text" class="col-3" id="Name"/>
+    </div>
+    <div class="row">
+        <label class="col-2">Дата рождения: </label>
+        <input type="date" class="col-3" id="BDay"/>
+    </div>
+    <div class="row">
+        <button class="col-2" onclick="Post()">POST</button>
+        <button class="col-2" onclick="Delete()">DELETE</button>
+        <button class="col-2" onclick="Put()">Put</button>
+    </div>
+</div>
+
+<script>
+    function Get() {
+        fetch('http://localhost:3001/api/db', {
+            method: 'GET',
+            headers: {'Content-Type': 'application/json'}
+        })
+            .then(response => {
+                return response.json();
+            })
+            .then(pdata => {
+                console.log('pdata', pdata);
+                let result = document.getElementById("result");
+                result.innerHTML = '';
+                pdata.forEach(element => {
+                    result.innerHTML += (element.id + '.  ' + element.name +
+                        ' ' + element.bday + '<br>');
+                });
+            });
+    }
+
+    function Post() {
+        let ID = document.getElementById("ID");
+        let Name = document.getElementById("Name");
+        let BDay = document.getElementById("BDay");
+
+        if (!ID.value) {
+            fetch('http://localhost:3001/api/db', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(
+                    {
+                        name: Name.value,
+                        bday: BDay.value
+                    }
+                )
+            })
+                .then(response => {
+                    return response.json();
+                })
+                .then(pdate => {
+                    console.log('POST.pdata', pdata);
+                });
+        } else {
+            fetch('http://localhost:3001/api/db', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(
+                    {
+                        id: ID.value,
+                        name: Name.value,
+                        bday: BDay.value
+                    }
+                )
+            })
+                .then(response => {
+                    return response.json();
+                })
+                .then(pdate => {
+                    console.log('POST.pdata', pdata);
+                });
+            ;
+        }
+    }
+
+    function Delete() {
+        let id = document.getElementById("ID");
+        fetch(`http://localhost:3001/api/db?id=${id.value}`, {
+            method: 'DELETE'
+        })
+            .then(response => {
+                return response.json();
+            })
+            .then(pdate => {
+                console.log('POST.pdata', pdata);
+            });
+    }
+
+    function Put() {
+        let ID = document.getElementById("ID");
+        let Name = document.getElementById("Name");
+        let BDay = document.getElementById("BDay");
+
+        if (ID.value) {
+            fetch('http://localhost:3001/api/db', {
+                method: 'PUT',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(
+                    {
+                        id: ID.value,
+                        name: Name.value,
+                        bday: BDay.value
+                    }
+                )
+            })
+                .then(response => {
+                    return response.json();
+                })
+                .then(pdate => {
+                    console.log('POST.pdata', pdata);
+                });
+        }
+    }
+</script>
+</body>
+</html>

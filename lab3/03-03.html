@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+<div id="result"></div>
+<script>
+    result.innerHTML = '';
+    const timeStart = Date.now();
+    for (let k = 0; k <= 20; k++) {
+        fetch(`http://localhost:5009/fact?k=${k}`, {
+            method: 'GET', mode: 'no-cors',
+            headers: {'Context-type': 'application/json', 'Accept': 'application/json'}
+        })
+
+            .then(response => response.json())
+
+            .then(data => {
+                result.innerHTML += k + '.Результат: ' + (Date.now() - timeStart).toString() + '-' + data.k + '/' + data.fact + '<br\>';
+            })
+    }
+</script>
+</body>
+</html>

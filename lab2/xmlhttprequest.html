@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>XMLHttpRequest</title>
+</head>
+
+<body>
+<h1 id="placeholder"></h1>
+<script>
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', 'http://localhost:5001/api/name');
+    xhr.send();
+
+    xhr.onload = function () {
+        if (xhr.status != 200) {
+            alert(`Ошибка ${xhr.status}: ${xhr.statusText}`);
+        } else {
+            document.getElementById("placeholder").innerHTML = xhr.response;
+        }
+    };
+</script>
+</body>
+</html>
