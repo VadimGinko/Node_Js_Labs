@@ -6,6 +6,8 @@ const data = require('./04-01');
 let db = new data.DB();
 db.on('GET', (request, response) => {
     console.log('DB.GET');
+    response.setHeader('Access-Control-Allow-Origin', '*');
+    response.setHeader('Access-Control-Allow-Headers', '*');
     response.end(JSON.stringify(db.get()));
 });
 

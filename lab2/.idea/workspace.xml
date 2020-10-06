@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7d52b8-2dd1-4cc0-b009-02c10a354029" name="Default Changelist" comment="" />
+    <list default="true" id="4c7d52b8-2dd1-4cc0-b009-02c10a354029" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labb14/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labb14/.idea/labb14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labb14/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labb14/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labb14/14-01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labb14/DB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labb14/ww.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/04-02.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/04-02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/04-03.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/04-03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb11/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labb11/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labb11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb6" beforeDir="false" afterPath="$PROJECT_DIR$/../labb6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb8" beforeDir="false" afterPath="$PROJECT_DIR$/../labb8" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +51,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1guhyag5rxle6JONkokewo0dQr6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -85,33 +125,45 @@
       <workItem from="1599858974280" duration="3871000" />
       <workItem from="1599982113821" duration="2718000" />
       <workItem from="1600004014033" duration="223000" />
+      <workItem from="1601982982144" duration="810000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599635151597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599635151597" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1599513329815">
+    <state width="1345" height="163" key="GridCell.Tab.0.bottom" timestamp="1601983795299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599513329815" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1599513329815">
+    <state width="1345" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601983795299" />
+    <state width="1345" height="163" key="GridCell.Tab.0.center" timestamp="1601983795299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599513329815" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1599513329815">
+    <state width="1345" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601983795299" />
+    <state width="1345" height="163" key="GridCell.Tab.0.left" timestamp="1601983795299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599513329815" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1599513329815">
+    <state width="1345" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601983795299" />
+    <state width="1345" height="163" key="GridCell.Tab.0.right" timestamp="1601983795299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599513329815" />
+    <state width="1345" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601983795299" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1599513329816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

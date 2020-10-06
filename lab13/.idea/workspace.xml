@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc4aa119-e86c-4414-a8c1-994588f2f27e" name="Default Changelist" comment="" />
+    <list default="true" id="cc4aa119-e86c-4414-a8c1-994588f2f27e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../labb11/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labb11/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labb11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb6" beforeDir="false" afterPath="$PROJECT_DIR$/../labb6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb8" beforeDir="false" afterPath="$PROJECT_DIR$/../labb8" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1i5OnUbPofZDAca6V2N2GNGB940" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,6 +79,7 @@
       <updated>1601194153069</updated>
       <workItem from="1601194154379" duration="12135000" />
       <workItem from="1601364787733" duration="2148000" />
+      <workItem from="1601574151436" duration="25000" />
     </task>
     <servers />
   </component>

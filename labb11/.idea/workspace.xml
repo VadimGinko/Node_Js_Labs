@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fb97314-630a-4d0d-a58a-f988bbd75097" name="Default Changelist" comment="" />
+    <list default="true" id="3fb97314-630a-4d0d-a58a-f988bbd75097" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb6" beforeDir="false" afterPath="$PROJECT_DIR$/../labb6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labb8" beforeDir="false" afterPath="$PROJECT_DIR$/../labb8" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1hgwQAbQRXuiqOgKZKfMPiMVqc8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,7 +72,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,17 +91,26 @@
       <workItem from="1601097147474" duration="295000" />
       <workItem from="1601356089103" duration="2423000" />
       <workItem from="1601359015483" duration="3965000" />
+      <workItem from="1601552757121" duration="362000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600446335383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="451" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600446335383" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601553105587">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601553105587" />
+    <state x="129" y="60" key="DiffContextDialog" timestamp="1601553098791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="60" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1601553098791" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1601364788335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -157,6 +175,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1601358519820" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601552760500">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601552760500" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

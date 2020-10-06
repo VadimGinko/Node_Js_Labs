@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>04-02</title>
+    <title>04-03</title>
 </head>
 
 <body>
@@ -33,11 +33,13 @@
         <button onclick="Put()">Put</button>
     </div>
 </div>
+
 <script>
     function Get() {
+
         fetch('http://localhost:3000/api/db', {
             method: 'GET',
-            headers: {'Content-Type': 'application/json'}
+            headers: {'Accept':'application/json'}
         })
             .then(response => {
                 return response.json();
@@ -61,6 +63,7 @@
         if (!ID.value) {
             fetch('http://localhost:3000/api/db', {
                 method: 'POST',
+                mode: "no-cors",
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(
                     {
@@ -78,6 +81,7 @@
         } else {
             fetch('http://localhost:3000/api/db', {
                 method: 'POST',
+                mode: "no-cors",
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(
                     {
