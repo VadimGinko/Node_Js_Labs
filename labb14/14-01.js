@@ -27,7 +27,6 @@ let GET_handler = (req, res) => {
             }).catch(error => {write_error_400(res, error)});
             break;
         case '/subjects':
-            res.writeHead(200, {'Content-Type': 'application/json'});
             Db.get_Subjects().then(records => {
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');

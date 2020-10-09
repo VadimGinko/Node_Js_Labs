@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52380bab-5c00-47a1-84f8-b2ddb58dc0e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-01.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-01.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labb6" beforeDir="false" afterPath="$PROJECT_DIR$/../labb6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labb8" beforeDir="false" afterPath="$PROJECT_DIR$/../labb8" afterDir="false" />
     </list>
@@ -50,7 +50,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
@@ -88,6 +90,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="52380bab-5c00-47a1-84f8-b2ddb58dc0e7" name="Default Changelist" comment="" />
@@ -102,6 +107,8 @@
       <workItem from="1601932265862" duration="8382000" />
       <workItem from="1601977506287" duration="1548000" />
       <workItem from="1601983610842" duration="10555000" />
+      <workItem from="1602219952526" duration="9000" />
+      <workItem from="1602220063187" duration="1401000" />
     </task>
     <servers />
   </component>
@@ -125,22 +132,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="15" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601985824331" />
-    <state width="1345" height="252" key="GridCell.Tab.0.bottom" timestamp="1602007254853">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1602221564854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="252" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602007254853" />
-    <state width="1345" height="252" key="GridCell.Tab.0.center" timestamp="1602007254852">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602221564854" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1602221564854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="252" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602007254852" />
-    <state width="1345" height="252" key="GridCell.Tab.0.left" timestamp="1602007254852">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602221564854" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1602221564854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="252" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602007254852" />
-    <state width="1345" height="252" key="GridCell.Tab.0.right" timestamp="1602007254852">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602221564854" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1602221564854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="252" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602007254852" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602221564854" />
     <state width="1345" height="252" key="GridCell.Tab.1.bottom" timestamp="1602007254853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -189,6 +196,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="252" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1602007254853" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1602219956752">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602219956752" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1601997163312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -213,8 +224,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/14-01.js</url>
-          <line>242</line>
-          <properties lambdaOrdinal="-1" />
+          <line>241</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
