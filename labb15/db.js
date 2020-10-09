@@ -4,7 +4,7 @@ const ObjectId = require('mongodb').ObjectID;
 
 class DB {
     constructor() {
-        this.url = 'mongodb+srv://vad:vad@cluster0.xkvl0.mongodb.net/';
+        this.url = 'mongodb+srv://<login>:<pass>@cluster0.xkvl0.mongodb.net/';
         this.client = new MongoClient(this.url, {useNewUrlParser: true, useUnifiedTopology: true});
         this.client = this.client.connect().then(connection => {return connection.db("BSTU")});
         console.log("Connected to MongoDB");
