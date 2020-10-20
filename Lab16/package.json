@@ -1,0 +1,17 @@
+{
+  "name": "Lab16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^14.5.8",
+    "msnodesqlv8": "^0.8.6",
+    "mssql": "^6.0.1"
+  }
+}

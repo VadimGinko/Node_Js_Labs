@@ -1,0 +1,106 @@
+# ---------------------------------------------------------------------------
+#                   gets
+# ---------------------------------------------------------------------------
+# query{getFaculties{FACULTY, FACULTY_NAME}}
+# -------------------------------------------------
+# query{getFaculties(FACULTY:"ТОВ                                               "){FACULTY, FACULTY_NAME}}
+# -------------------------------------------------
+# query{getTeachers{TEACHER, TEACHER_NAME, PULPIT}}
+# -------------------------------------------------
+# query{getTeachers(TEACHER:"АКНВЧ     ")
+# {TEACHER, TEACHER_NAME, PULPIT}}
+# -------------------------------------------------
+# query{getPulpits{PULPIT, PULPIT_NAME, FACULTY}}
+# -------------------------------------------------
+# query{getPulpits(PULPIT:"ТНХСиППМ  ")
+# {PULPIT, PULPIT_NAME, FACULTY}}
+# -------------------------------------------------
+# query{getSubjects{SUBJECT, SUBJECT_NAME, PULPIT}}
+# -------------------------------------------------
+# query{getSubjects(SUBJECT:"ВТЛ       ")
+# {SUBJECT, SUBJECT_NAME, PULPIT}}
+# ---------------------------------------------------------------------------
+#                   inserts(and updates)
+# ---------------------------------------------------------------------------
+# mutation{
+#     setFaculty
+#     (FACULTY: "2", FACULTY_NAME: "qqqqq")
+#     {
+#         FACULTY
+#         FACULTY_NAME
+#     }}
+# -------------------------------------------------
+# mutation{
+#     setTeacher
+#     (TEACHER: "2", TEACHER_NAME: "qqqqq2", PULPIT: "ТЛ        ")
+#     {
+#         TEACHER
+#         TEACHER_NAME
+#         PULPIT
+#     }}
+# -------------------------------------------------
+# mutation{
+#     setPulpit
+#     (PULPIT: "2", PULPIT_NAME: "qqqqq",       FACULTY: "ИЭФ                                               ")
+#     {
+#         PULPIT
+#         PULPIT_NAME
+#         FACULTY
+#     }}
+# -------------------------------------------------
+# mutation{
+#     setSubject
+#     (SUBJECT: "2", SUBJECT_NAME: "qqqqq2", PULPIT: "ТЛ        ")
+#     {
+#         SUBJECT
+#         SUBJECT_NAME
+#         PULPIT
+#     }}
+# ---------------------------------------------------------------------------
+#                   delete
+# ---------------------------------------------------------------------------
+# mutation{
+#     delFaculty
+#     (FACULTY: "2")
+#     {
+#         FACULTY
+#     }}
+# -------------------------------------------------
+# mutation{
+#     delTeacher
+#     (TEACHER: "2")
+#     {
+#         TEACHER
+#     }}
+# -------------------------------------------------
+# mutation{
+#     delPulpit
+#     (PULPIT: "2")
+#     {
+#         PULPIT
+#     }}
+# -------------------------------------------------
+# mutation{
+#     delSubject
+#     (SUBJECT: "2")
+#     {
+#         SUBJECT
+#     }}
+# ---------------------------------------------------------------------------
+#                   get by
+# ---------------------------------------------------------------------------
+# query{getTeachersByFaculty(FACULTY:"ТОВ                                               "){FACULTY}}
+# -------------------------------------------------
+# query{getSubjectsByFaculties(FACULTY:"ИДиП                                              ")
+#     {    
+#     PULPIT
+#     PULPIT_NAME
+#     FACULTY,
+#     SUBJECTS{SUBJECT, SUBJECT_NAME, PULPIT}
+#     }}
+# -------------------------------------------------
+# query{getTeachersByFaculty(FACULTY:"ИДиП                                              ")
+#     {   
+#     FACULTY,
+#     TEACHERS{TEACHER, TEACHER_NAME, PULPIT}
+#     }}

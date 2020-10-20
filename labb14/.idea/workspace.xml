@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52380bab-5c00-47a1-84f8-b2ddb58dc0e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-01.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labb6" beforeDir="false" afterPath="$PROJECT_DIR$/../labb6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labb8" beforeDir="false" afterPath="$PROJECT_DIR$/../labb8" afterDir="false" />
     </list>
@@ -109,29 +109,36 @@
       <workItem from="1601983610842" duration="10555000" />
       <workItem from="1602219952526" duration="9000" />
       <workItem from="1602220063187" duration="1401000" />
+      <workItem from="1602507409309" duration="2840000" />
+      <workItem from="1602513645146" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="15" key="#xdebugger.evaluate" timestamp="1601985824331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="15" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601985824331" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1602513688466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602513688466" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1602221564854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -196,10 +203,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="252" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1602007254853" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1602219956752">
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1602513666216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602219956752" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602513666216" />
+    <state x="65" y="0" key="new project wizard" timestamp="1602507972735">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1602507972735" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1601997163312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -224,7 +235,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/14-01.js</url>
-          <line>241</line>
+          <line>240</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
